@@ -59,7 +59,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="~/Content/Eshopper/images/ofislogo.jpg" height="60" width="300" alt="" /></a>
+							<a href="~/Home/Index"><img src="~/Content/Eshopper/images/ofislogo.jpg" height="60" width="300" alt="" /></a>
 
 						</div>
 						<div class="btn-group pull-right">
@@ -72,11 +72,9 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
+								<li><a href="#"><i class="fa fa-user"></i> Hesabım</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Sepetim</a></li>
+								<li><a href="~/Home/Login"><i class="fa fa-lock"></i> Üye Girişi</a></li>
 							</ul>
 						</div>
 					</div>
@@ -84,7 +82,7 @@
 			</div>
 		</div><!--/header-middle-->
 
-		<div class="header-bottom" style="background-color:#ff6a00; border-radius:10px;">
+		<div class="header-bottom" style="background-color: #FE980F ; border-radius: 10px;">
 			<!--header-bottom-->
 			<div class="container">
 				<div class="row">
@@ -99,178 +97,47 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="index.html" class="active" style="color:black;">Home</a></li>
+								<li><a href="~/Home/Index" class="active" style="color:black;">HOME</a></li>
 								<li class="dropdown">
-									<a href="#">Shop<i class="fa fa-angle-down"></i></a>
+									<a href="#">SHOP<i class="fa fa-angle-down"></i></a>
 									<ul role="menu" class="sub-menu">
-										<li><a href="shop.html">Products</a></li>
+										<li><a href="~/Home/Product">Products</a></li>
 										<li><a href="product-details.html">Product Details</a></li>
 										<li><a href="checkout.html">Checkout</a></li>
 										<li><a href="cart.html">Cart</a></li>
-										<li><a href="login.html">Login</a></li>
+										<li><a href="~/Home/Login">Login</a></li>
 									</ul>
 								</li>
 								<li class="dropdown">
-									<a href="#">Blog<i class="fa fa-angle-down"></i></a>
+									<a href="#">BLOG<i class="fa fa-angle-down"></i></a>
 									<ul role="menu" class="sub-menu">
 										<li><a href="blog.html">Blog List</a></li>
 										<li><a href="blog-single.html">Blog Single</a></li>
 									</ul>
 								</li>
 								<li><a href="404.html">404</a></li>
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="~/Home/ContactForm">CONTACT</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="search_box pull-right">
-							<input type="text" placeholder="Search" />
+							<input type="text" placeholder="Ne Arıyorsunuz..." maxlength="25" />
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
-
 	<section style="margin-top:30px; margin-bottom:30px;">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3">
-					<div class="left-sidebar">
-						<h2>Kategoriler</h2>
-						<div class="panel-group category-products" id="accordian">
-							<!--category-productsr-->
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Sportswear
-										</a>
-									</h4>
-								</div>
-								<div id="sportswear" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Nike </a></li>
-											<li><a href="#">Under Armour </a></li>
-											<li><a href="#">Adidas </a></li>
-											<li><a href="#">Puma</a></li>
-											<li><a href="#">ASICS </a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Mens
-										</a>
-									</h4>
-								</div>
-								<div id="mens" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Fendi</a></li>
-											<li><a href="#">Guess</a></li>
-											<li><a href="#">Valentino</a></li>
-											<li><a href="#">Dior</a></li>
-											<li><a href="#">Versace</a></li>
-											<li><a href="#">Armani</a></li>
-											<li><a href="#">Prada</a></li>
-											<li><a href="#">Dolce and Gabbana</a></li>
-											<li><a href="#">Chanel</a></li>
-											<li><a href="#">Gucci</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian" href="#womens">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Womens
-										</a>
-									</h4>
-								</div>
-								<div id="womens" class="panel-collapse collapse">
-									<div class="panel-body">
-										<ul>
-											<li><a href="#">Fendi</a></li>
-											<li><a href="#">Guess</a></li>
-											<li><a href="#">Valentino</a></li>
-											<li><a href="#">Dior</a></li>
-											<li><a href="#">Versace</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Kids</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Fashion</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Households</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Interiors</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Clothing</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Bags</a></h4>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Shoes</a></h4>
-								</div>
-							</div>
-						</div><!--/category-products-->
-
-						<div class="brands_products">
-							<!--brands_products-->
-							<h2>Markalar</h2>
-							<div class="brands-name">
-								<ul class="nav nav-pills nav-stacked">
-									<li><a href="#"> <span class="pull-right">(50)</span>Acne</a></li>
-									<li><a href="#"> <span class="pull-right">(56)</span>Grüne Erde</a></li>
-									<li><a href="#"> <span class="pull-right">(27)</span>Albiro</a></li>
-									<li><a href="#"> <span class="pull-right">(32)</span>Ronhill</a></li>
-									<li><a href="#"> <span class="pull-right">(5)</span>Oddmolly</a></li>
-									<li><a href="#"> <span class="pull-right">(9)</span>Boudestijn</a></li>
-									<li><a href="#"> <span class="pull-right">(4)</span>Rösch creative culture</a></li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-
-				@RenderBody()
+			
+					@RenderBody()
+		
 			</div>
 		</div>
 	</section>
-
 
 
 	<footer id="footer">
@@ -278,75 +145,88 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2" style="margin-top:50px;">
+					<div class="col-sm-4" style="margin-top:5px">
 						<div class="companyinfo">
 							<img src="~/Content/Eshopper/images/ofislogo.jpg" height="35" width="180" />
-							<p style="font-size:15px;text-align:center">23 Yıllık Tecrübe ve Profesyonel İş Anlayışıyla Sektörün Öncüsü</p>
+							<p style="font-size:13px;">23 Yıllık Tecrübe ve Profesyonel<br /> İş Anlayışıyla Sektörün Öncüsü</p>
 
 
 						</div>
 					</div>
-					<div class="col-lg-10" style="padding-top:20px; padding-left:30px">
-						<div class="col-sm-3">
-							<div class="rounded-circle" style="text-align:center;">
-								<div style="margin-bottom:20px;">
-									<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-1.png" height="150" width="150">
+					<div class="col-sm-8" style="padding-top:20px;">
+						<div class="single-widget">
+
+							<form action="#" class="searchform">
+								<div class="input-group mb-3">
+									<div class="input-group">
+										<h2 class="input-group-text" id="basic-addon1">E-Bülten</h2>
+									</div>
+									<input type="text" placeholder="Mail Adresiniz " style="width:80%" />
+									<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+									<p>Kampanyalarımızdan haberdar olmak için e-bültene abone olabilirsiniz.</p>
+								</div>
+							</form>
+						</div>
+						@*<div class="col-sm-3">
+								<div class="rounded-circle" style="text-align:center;">
+									<div style="margin-bottom:20px;">
+										<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-1.png" height="150" width="150">
+
+									</div>
+
+									<p style="text-align:center">
+										Hafta içi her gün saat 16:00’a kadar vermiş
+										olduğunuz siparişleriniz 1 gün içerisinde
+										teslim edilmektedir.
+									</p>
 
 								</div>
-
-								<p style="text-align:center">
-									Hafta içi her gün saat 16:00’a kadar vermiş
-									olduğunuz siparişleriniz 1 gün içerisinde
-									teslim edilmektedir.
-								</p>
-
 							</div>
-						</div>
 
-						<div class="col-sm-3">
-							<div class="rounded-circle" style="text-align:center;">
-								<div style="margin-bottom:20px;">
-									<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-2.png" height="150" width="150">
+							<div class="col-sm-3">
+								<div class="rounded-circle" style="text-align:center;">
+									<div style="margin-bottom:20px;">
+										<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-2.png" height="150" width="150">
+
+									</div>
+
+									<p style="text-align:center">
+										200₺ ve üzeri siparişleriniz ücretsiz
+										olarak teslim edilecektir. Not: A4 kağıtlar dahil değildir.
+									</p>
 
 								</div>
-
-								<p style="text-align:center">
-									200₺ ve üzeri siparişleriniz ücretsiz
-									olarak teslim edilecektir. Not: A4 kağıtlar dahil değildir.
-								</p>
-
 							</div>
-						</div>
 
-						<div class="col-sm-3">
-							<div class="rounded-circle" style="text-align:center;">
-								<div style="margin-bottom:20px;">
-									<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-3.png" height="150" width="150">
+							<div class="col-sm-3">
+								<div class="rounded-circle" style="text-align:center;">
+									<div style="margin-bottom:20px;">
+										<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-3.png" height="150" width="150">
+
+									</div>
+
+									<p style="text-align:center">
+										Kişisel verileri koruma konunu gereği tüm bilgileriniz koruma altındadır.
+
+									</p>
 
 								</div>
-
-								<p style="text-align:center">
-									Kişisel verileri koruma konunu gereği tüm bilgileriniz koruma altındadır.
-
-								</p>
-
 							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="rounded-circle" style="text-align:center;">
-								<div style="margin-bottom:20px;">
-									<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-4.png" height="150" width="150">
+							<div class="col-sm-3">
+								<div class="rounded-circle" style="text-align:center;">
+									<div style="margin-bottom:20px;">
+										<img src="https://cdn.ofix.com/content/img/home-footer-icons/home-footer-icon-4.png" height="150" width="150">
+
+									</div>
+
+									<p style="text-align:center">
+										Ofiskirtasiye.com.tr ' den almış olduğunuz
+										ürünleri  14 gün  içerisinde iade etme veya başka bir
+										ürünle değiştirme hakkına sahipsiniz.
+									</p>
 
 								</div>
-
-								<p style="text-align:center">
-									Ofiskirtasiye.com.tr ' den almış olduğunuz
-									ürünleri  14 gün  içerisinde iade etme veya başka bir
-									ürünle değiştirme hakkına sahipsiniz.
-								</p>
-
-							</div>
-						</div>
+							</div>*@
 					</div>
 
 				</div>
@@ -404,14 +284,10 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-3 col-sm-offset-1">
+					<div class="col-sm-3" style="margin-top:50px">
 						<div class="single-widget">
-							<h2>E-Bülten</h2>
-							<form action="#" class="searchform">
-								<input type="text" placeholder="Mail Adresiniz " />
-								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-								<p>Kampanayalarımızdan haberdar olmak için e-bültene abone olabilirsiniz.</p>
-							</form>
+							<img src="~/Content/Eshopper/images/visa-mastercard-troy.png" style="width:250px; height:55px" />
+							<p style="text-align:center">Bilgileriniz 256 Bit SSL Sertikası ile korunmaktadır.</p>
 						</div>
 					</div>
 

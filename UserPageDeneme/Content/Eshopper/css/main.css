@@ -78,7 +78,7 @@ a#scrollUp i{
 }
 
 .contactinfo ul li a{
-  font-size: 12px;
+  font-size: 14px;
   color: #696763;
   font-family: 'Questrial', sans-serif;
 }
@@ -154,27 +154,6 @@ a#scrollUp i{
 	padding-right:0;
 }
 
-.usa {
-  border-radius: 0;
-  color: #B4B1AB;
-  font-size: 12px;
-  margin-right: 20px;
-  padding: 2px 15px;
-  margin-top: 10px;
-}
-
-.usa:hover {
-	background:#FE980F;
-	color:#fff;
-	border-color:#FE980F;
-}
-
-.usa:active, .usa.active {
-  background: none repeat scroll 0 0 #FE980F;
-  box-shadow: inherit;
-  outline: 0 none;
-}
-
 .btn-group.open .dropdown-toggle {
   background: rgba(0, 0, 0, 0);
   box-shadow: none;
@@ -223,8 +202,10 @@ a#scrollUp i{
 
 
 .header-bottom {
-  padding-bottom: 30px;
-  padding-top: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #ff6a00 ;
+	border-radius: 10px;
 }
 
 .navbar-collapse.collapse{
@@ -254,21 +235,20 @@ a#scrollUp i{
 }
 
 .search_box input {
-  background: #fff;
-  border: medium none;
-  color: black;
-  font-family: 'Questrial';
-  font-size: 14px;
-  font-weight: 300;
-  height: 35px;
-  outline: medium none;
-  padding-left: 20px;
-  width:200px;
-  background-image: url(../images/home/searchicon.png);
-  background-repeat: no-repeat;
-  background-position: 180px;
-  border-radius:10px;
-
+	background: #fff;
+	border: medium none;
+	color: black;
+	font-family: 'Questrial';
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 300;
+	height: 35px;
+	outline: medium none;
+	padding-left: 20px;
+	width: 225px;
+	background-image: url(../images/home/searchicon.png);
+	background-repeat: no-repeat;
+	background-position: 200px;
 }
 
 
@@ -357,8 +337,9 @@ ul.sub-menu {
   padding-bottom: 20px;
 }
 
+
 .companyinfo {
-  margin-top: 57px;
+	margin-top: 57px;
 }
 
 .companyinfo h2 {

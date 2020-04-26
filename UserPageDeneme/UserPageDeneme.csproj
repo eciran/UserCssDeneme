@@ -149,8 +149,10 @@
     <Content Include="Content\Eshopper\images\home\sale.png" />
     <Content Include="Content\Eshopper\images\home\searchicon.png" />
     <Content Include="Content\Eshopper\images\home\shipping.jpg" />
+    <Content Include="Content\Eshopper\images\logo.jpg" />
     <Content Include="Content\Eshopper\images\logopng.png" />
     <Content Include="Content\Eshopper\images\ofislogo.jpg" />
+    <Content Include="Content\Eshopper\images\payment_cards.png" />
     <Content Include="Content\Eshopper\images\product-details\1.jpg" />
     <Content Include="Content\Eshopper\images\product-details\new.jpg" />
     <Content Include="Content\Eshopper\images\product-details\rating.png" />
@@ -165,6 +167,7 @@
     <Content Include="Content\Eshopper\images\shop\product7.jpg" />
     <Content Include="Content\Eshopper\images\shop\product8.jpg" />
     <Content Include="Content\Eshopper\images\shop\product9.jpg" />
+    <Content Include="Content\Eshopper\images\visa-mastercard-troy.png" />
     <Content Include="Content\Eshopper\index.html" />
     <Content Include="Content\Eshopper\js\bootstrap.min.js" />
     <Content Include="Content\Eshopper\js\contact.js" />
@@ -211,6 +214,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\_Slider.cshtml" />
+    <Content Include="Views\Shared\_CatBrand.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Home\ContactForm.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

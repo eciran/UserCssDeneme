@@ -1,0 +1,72 @@
+﻿
+@{
+	ViewBag.Title = "ContactForm";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="contact-page" class="container">
+	<div class="bg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="title text-center">Bize Ulasın</h2>
+				<div id="gmap" class="contact-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d402.17640325761374!2d27.14186417106469!3d38.42257542254357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x77732ae92c91c6fd!2sOfis%20K%C4%B1rtasiye%20ve%20Dijital%20Bask%C4%B1%20Merkezi!5e0!3m2!1str!2str!4v1587935004880!5m2!1str!2str" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="contact-form">
+					<h2 class="title text-center">BİZE Yazın </h2>
+					<div class="status alert alert-success" style="display: none"></div>
+					<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
+						<div class="form-group col-md-6">
+							<input type="text" name="name" class="form-control" required="required" placeholder="İsim-Soyisim">
+						</div>
+						<div class="form-group col-md-6">
+							<input type="email" name="email" class="form-control" required="required" placeholder="Email">
+						</div>
+						<div class="form-group col-md-12">
+							<input type="text" name="subject" class="form-control" required="required" placeholder="Konu">
+						</div>
+						<div class="form-group col-md-12">
+							<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Mesajınızı Buraya Yazınız..."></textarea>
+						</div>
+						<div class="form-group col-md-12">
+							<input type="submit" name="submit" class="btn btn-primary pull-right" value="Gönder">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="contact-info">
+					<h2 class="title text-center">İLETİSİM ADRESLERİ</h2>
+					<address>
+						<p>Ofis Kırtasiye Büro Makinaları San.Tic.Ltd.Şti.</p>
+						<p>Fevzipaşa Bulvarı No:151/N Basmane</p>
+						<p>Konak / İZMİR</p>
+						<p>Tel: 0232 951 88 81</p>
+						<p>Email: info@ofiskirtasiye.com.tr</p>
+					</address>
+					<div class="social-networks">
+						<h2 class="title text-center">Sosyla Medya</h2>
+						<ul>
+							<li>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
